@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { getJobBidInquiry, addCreditToContractor, JobBidInquiryResponse } from '@/lib/api/admin-credit-api';
+import { getJobBidInquiry, addCreditToContractor } from '@/lib/api/admin-credit-api';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Loader2, Search, Plus, Mail, Phone, MapPin, User, Briefcase, DollarSign, Calendar } from 'lucide-react';
+import { Loader2, Search, Plus, Mail, Phone, MapPin, User, Briefcase } from 'lucide-react';
 
 export default function CreditManagementPage() {
   const queryClient = useQueryClient();
