@@ -217,12 +217,12 @@ export default function CreditManagementPage() {
               </CardContent>
             </Card>
 
-            {/* Buyer Contact */}
+            {/* Home Owner Contact */}
             <Card>
               <CardHeader>
                 <CardTitle className='text-lg font-roboto flex items-center gap-2'>
                   <User className='h-5 w-5 text-green-600' />
-                  Buyer Contact
+                  Home Owner Contact
                 </CardTitle>
               </CardHeader>
               <CardContent className='space-y-3'>
@@ -344,7 +344,7 @@ export default function CreditManagementPage() {
                       Contractor ID: <span className='font-mono bg-white px-2 py-0.5 rounded'>{inquiryData.contractor_id}</span>
                     </p>
                     <p className='font-inter text-xs text-gray-600'>
-                      Buyer ID: <span className='font-mono bg-white px-2 py-0.5 rounded'>{inquiryData.buyer_id}</span>
+                      Home Owner ID: <span className='font-mono bg-white px-2 py-0.5 rounded'>{inquiryData.buyer_id}</span>
                     </p>
                   </div>
                 </div>

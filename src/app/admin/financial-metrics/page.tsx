@@ -109,7 +109,7 @@ export default function FinancialMetricsPage() {
       {/* Revenue Breakdown Chart */}
       <Card>
         <CardHeader>
-          <CardTitle className='text-lg font-roboto'>30-Day Revenue Breakdown (between credit and bid payments)</CardTitle>
+          <CardTitle className='text-lg font-roboto'>30-Day Revenue Breakdown</CardTitle>
           <p className='text-sm font-inter text-gray-600'>Daily revenue from bid payments and credit purchases</p>
         </CardHeader>
         <CardContent>

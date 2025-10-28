@@ -223,7 +223,7 @@ export default function JobDetailPage() {
         <div className='lg:col-span-1'>
           <Card>
             <CardHeader>
-              <CardTitle className='text-lg font-roboto'>Buyer Contact</CardTitle>
+              <CardTitle className='text-lg font-roboto'>Home Owner Contact</CardTitle>
             </CardHeader>
             <CardContent className='space-y-4'>
               <div className='flex items-center gap-3'>
